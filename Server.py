@@ -3,7 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from my_crypto import aes_encrypt, keys, decompose_byte
+from Crypto import aes_encrypt, keys, decompose_byte
 
 # Constants
 HOST = '0.0.0.0'  # Listen on all interfaces
